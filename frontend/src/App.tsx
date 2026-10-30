@@ -4,6 +4,8 @@ import { AuthProvider } from './context/AuthContext';
 import { ProtectedRoute } from './components/common/ProtectedRoute';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
+import { ProjectsPage } from './pages/ProjectsPage';
+import { ProjectBoardPage } from './pages/ProjectBoardPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,8 +28,8 @@ export function App() {
 
             {/* Protected Routes */}
             <Route element={<ProtectedRoute />}>
-              <Route path="/projects" element={<div className="p-8 text-center text-slate-600">Projects list screen (Part 7)</div>} />
-              <Route path="/projects/:id" element={<div className="p-8 text-center text-slate-600">Project board screen (Part 7)</div>} />
+              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/projects/:id" element={<ProjectBoardPage />} />
             </Route>
 
             {/* Fallback */}
