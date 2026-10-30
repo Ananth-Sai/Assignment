@@ -31,3 +31,4 @@ describe('SummaryBar Component', () => {
     expect(overdueCard.className).toContain('bg-red-50');
   });
 });
+

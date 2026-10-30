@@ -64,3 +64,4 @@ describe('TaskCard Component', () => {
     expect(onStatusChange).toHaveBeenCalledWith(1, 'IN_PROGRESS');
   });
 });
+

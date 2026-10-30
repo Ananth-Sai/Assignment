@@ -161,3 +161,4 @@ We selected **TanStack React Query v5** paired with a lightweight **React Contex
 * **Drag-and-Drop Column Reordering:** Enhance card movement with `@hello-pangea/dnd`.
 * **Task Activity History:** Append an audit log entity recording status changes, timestamps, and actors.
 * **WebSocket / SSE Live Updates:** Broadcast board changes across multiple concurrent users on the same project.
+

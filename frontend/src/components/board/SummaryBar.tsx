@@ -72,3 +72,4 @@ export const SummaryBar: React.FC<SummaryBarProps> = ({ summary, loading }) => {
     </div>
   );
 };
+
