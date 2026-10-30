@@ -1,0 +1,29 @@
+# Assignment instructions & personal study guides (never commit)
+*.docx
+guides/
+
+# Gradle & Java build artifacts
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Node / Frontend artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+coverage/
+
+# Environment & IDE files
+.env
+.env.*
+!.env.example
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
